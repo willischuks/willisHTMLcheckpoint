@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.pfont{
+    font-size: 15px; 
+    font-style: italic; 
+    color: rgb(114, 100, 240);
+    margin: 50;
+    
+}
+.pr{
+background-color:rgb(123, 182, 245);
+}
+.mynav{
+    position:sticky; 
+    background-color: rgb(54, 78, 230);
+    width: 50%;
+    height: 2%;
+    text-align:left;
+    border-style:double;
+    border-bottom: 100%;
+    margin: 0;
+    border-radius: 60px;
+    color:rgb(89, 53, 233);
+    width: 100%; 
+    opacity: 70%;
+}
+.mynav ul li a:hover{
+background-color: rgb(37, 14, 208);}
+
+#wh{ text-align: center; 
+    display: flex; 
+    justify-content: center;
+    background-image: url(lightpic.avif);
+}
+.d{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 7%;
+    padding: 0%;
+    background-color: rgb(164, 211, 247);
+    border-color:black
+}
+.imd{
+    border-radius: 69%;
+    width: 180px;
+    margin: 0;
+    padding: 1%
+}
+.mynav ul{
+   list-style: none;
+}
+.mynav li{
+    display: inline; 
+    padding: 5%;
+    text-align: center; 
+    font-size: larger; 
+    height: 5%;
+}
+.mynav li a{
+    text-decoration: none; 
+    text-align: justify;
+    display: inline;
+    color: azure;
+    padding: 20;
+}
+.btn{
+    border-radius: 15px;
+    width: 50%; height: 50%;
+    padding: 2;
+    border: 0%; border-color: rgb(54, 9, 117);
+    justify-content: center;
+    background-color: rgb(13, 168, 235);
+    margin-left: 15%;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(8, 8, 99);
+}
+.btn:hover{
+    background-color: rgb(92, 74, 229)
+}
+#hj{
+    display: flex;
+    columns: 55;
+
+}
+#frm{
+    background-color: white;
+}
+#frm label input button{
+    display: block;
+    font-weight: bolder;
+}
+input{
+    width: 100%;
+    background: rgb(95, 76, 236);
+    padding: 10px;
+    border: none;
+    margin: 5px 0px 20px 0px;
+    font-style: normal;font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.ftcontainer{
+    background-image: url(lightpic.avif);
+    width: 100%;
+    padding: 70px 30px 20px;
+    margin-top: 20px;
+ 
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(223, 223, 229);
+    margin: 10px;
+    border-radius: 50%;
+}
+.icons a  i{
+    font-size: 2em;
+    color: rgb(59, 1, 43);
+    opacity: 0.9;
+}
+.icons a :hover{
+    background-color: rgb(57, 64, 161);
+    transition: 0.5s;
+}
+.icons a :hover{
+    color: #000;
+    transition: 0.5;
+}
+
+.ftnav{
+    margin: 30px 0;
+    text-decoration: none;
+}
+.ftnav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+.ftnav ul li a {
+    padding: 20px;
+    text-decoration: none;
+   
+}
+
+
+.ftnav ul li:hover{
+    opacity: 3;
+}
+.ftnav ul li a{
+    color:purple;
+}
+.fbm{
+    background-color: #f2e7e7;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+.ftbm p{ 
+    color: white;
+}
